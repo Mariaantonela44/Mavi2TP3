@@ -1,0 +1,30 @@
+Laboratorio Mecánico de Mavix
+
+Este proyecto consiste en un laboratorio físico realizado con Raylib y Box2D, donde se pueden observar distintos mecanismos funcionando dentro del mundo físico.
+
+La escena está formada por varios sistemas conectados entre sí mediante joints. Entre ellos se encuentra una plataforma móvil que se desplaza horizontalmente, un péndulo conectado a esa plataforma, un sistema elástico que simula un resorte.
+
+Además, se incluye un péndulo fijo que tiene movilidad a través de la tecla espacio. 
+
+Durante la simulación se puede observar:
+
+- movimiento horizontal de plataformas
+- oscilación de péndulos
+- comportamiento elástico
+- colisiones entre cuerpos
+- interacción entre estructuras físicas
+- reacción a la gravedad y a las fuerzas aplicadas
+
+Joints utilizados:
+
+Prismatic Joint:
+Se utilizó para crear la plataforma móvil que se desplaza de izquierda a derecha dentro de un límite definido.
+
+Revolute Joint:
+Se utilizó en el péndulo para permitir movimientos de rotación similares a una bisagra.
+
+Weld Joint:
+Se utilizó para unir la barra y la bola del péndulo, haciendo que ambas partes funcionen como una sola estructura rígida.
+
+Distance Joint:
+Se utilizó en el sistema elástico para simular el comportamiento de un resorte entre dos cuerpos físicos.
